@@ -1,0 +1,154 @@
+body {
+    font-family: 'New Tegomin', serif;
+    background: black;
+    color: black;
+    background-image: url('https://i.ibb.co/3zcV0qg/Pair-of-white-dice-on-a-black-reflective-background.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    }
+
+header{
+    color: white;
+    text-align: center;
+
+}
+.page-logo{
+    width:100px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+.dice-gif {
+    width: 100px;
+    display:block;
+    margin: auto;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    
+    }
+#dados{
+    text-align: center;
+    align-items: center;
+}
+
+#number {
+    border-radius: 3px;
+    margin: auto;
+    width: 90px;
+    padding: 4px 5px;
+    
+}
+
+.roll {
+    font-size: 15px;
+    background: black;
+    padding: 6px 5px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    width: 110px;
+    margin-left: 10px;
+      
+  }
+  .roll:hover{
+    background: #373d42;
+    text-decoration: none;
+  }
+  
+  a, a:visited, a:hover, a:active {
+      
+      color: white;
+      text-decoration: none;
+
+  }
+
+  #botao {
+    font-size: 15px;
+    background: black;
+    padding: 6px 5px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    display: inline-block;
+
+    border: none;
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  #botao:hover{
+    background: #373d42;
+    text-decoration: none;
+  }
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    opacity: 0.6;
+    margin-top: 100px;
+    
+}
+
+
+@media (max-width: 1090px){
+    body {
+        background-image:none;
+    }
+}
+
+
+@media (max-width: 560px){
+    html, body{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .page-logo {
+        display: none;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    footer {
+        margin-top: 20px;
+        justify-content: justify;
+    }
+
+}
+@media (max-width: 400px){
+
+    header {
+        margin: 0;
+    }
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+.dice-gif {
+    width: 80px;
+    margin: 0;
+}
+}
